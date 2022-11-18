@@ -1,0 +1,20 @@
+.produtos-preco {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.produtos-preco-promo {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+}
+.produtos-descricao {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}

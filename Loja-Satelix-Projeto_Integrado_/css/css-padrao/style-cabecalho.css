@@ -1,0 +1,33 @@
+header {
+    background-color: #000000;
+    padding: 10px 0; 
+}
+.cabecalho {  /*section*/
+    position: relative;
+    width: 940px; /*Largura padrão WEB*/
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.lista-cabecalho {  /*ul*/
+    position: absolute; /*permite posicinar algum elemento em relação a qualquer parte da pág*/
+    right: 20px;
+    top: 40px; /*TOPO/CIMA - PARA CIMA*/
+}
+
+.lista-cabecalho li {    /*li*/
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+.lista-cabecalho a {
+    text-transform:uppercase; /*Letra maíuscula*/
+    color: #FFFFFF;
+    font-size: 20px; /*Tamanho da fonte*/
+    font-weight: bold; /*peso da fonte*/
+    text-decoration: none; /*tira o sublinhado da tag ancora(nehuma decoração)*/
+}
+
+.lista-cabecalho a:hover {
+    color: #138a92;
+}

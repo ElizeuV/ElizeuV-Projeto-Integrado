@@ -1,0 +1,43 @@
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+}
+.produtos ul {
+    padding: 40px 0;
+}
+.produtos li {
+    display: inline-block; /*bloco em linha*/
+    margin: 0 20px 0 0 ;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  /*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
+    margin-top: 15px;
+    border: 2px solid #000000; /*Maneira simplificada*/
+    border-radius: 40px;    /*Curva nas bordas*/
+}
+.imagens {
+    width: 150px;   /*Largura*/
+    height: 150px;    /*altura*/ 
+    padding: 10px;
+    text-decoration: none;
+}
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+    /*margin: 0px  0px 0px 0px;     /*cima*/   /*lado direiro*/  /*baixo*/ /*lado esquerdo*/ 
+    /* width:             largura */
+    /* height:            altura */
+    /* padding:           Espaçamento interno */
+    /* margin:            Espaçamento externo */
+
+    /*border-color: #000000; /* Corda borda*/
+    /*border-width: 2px; /*Largura da borda*/
+    /*border-style: solid; /*Tipo de borda*/

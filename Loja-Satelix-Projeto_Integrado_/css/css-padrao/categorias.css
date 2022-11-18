@@ -1,0 +1,35 @@
+.categorias {    /*section*/
+    border-bottom:  #000000 solid 2px;
+  
+}
+
+.divisao-categorias {   /*div*/
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100px; 
+}
+
+.lista-categorias {  /*ul*/
+    display: flex;
+    justify-content: space-around; /*around, between and evenly*/
+    height: 100px;
+    align-items: center;
+    text-transform:lowercase;   
+}
+
+.categorias-link {  /*a/
+    text-transform: lowercase; /*letra minuscula*/
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+
+.categorias-genero {     /*li*/
+   flex-grow: 0;
+   flex-shrink: 1;
+}
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+

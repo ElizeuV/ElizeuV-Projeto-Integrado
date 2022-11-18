@@ -1,0 +1,31 @@
+.titulo-todos-frete {
+    background-color: white;
+}
+.titulo-todos-frete div {
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around; /*around, between and evenly*/
+    align-items: center; 
+    font-weight: bold;
+    border-bottom:  #000000 solid 2px;
+}
+.titulo-todos-frete h5 {
+   padding:  20px;
+}
+.titulo-todos-frete a {
+
+    color: black;
+    font-size: 25px; /*Tamanho da fonte*/
+    font-weight: bold; /*peso da fonte*/
+    text-decoration: none; /*tira o sublinhado da tag ancora(nehuma decoração)*/
+    text-align:  center;
+}
+.titulo-todos-frete a:hover {
+    color: red;
+}
+
+.titulo-todos-frete h5:hover a {  /*musa o tamanho da fonte do produto quando o mause está em cima*/
+    font-size: 30px;
+}

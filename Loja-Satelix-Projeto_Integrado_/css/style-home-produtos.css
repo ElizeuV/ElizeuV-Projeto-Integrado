@@ -1,0 +1,48 @@
+.produtos-home {
+    border: 2px solid #000000;
+}
+.produtos {
+    width: 940px; /*Largura padrão WEB*/
+    margin: 0 auto;
+}
+
+.produtos ul {
+   padding:20px;
+}
+.produtos li {
+    display: inline-block; /*bloco em linha*/
+    margin: 0 20px 0 0;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  /*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
+    margin-top: 15px;
+    border: 2px solid #000000; /*Maneira simplificada*/
+    border-radius: 20px;
+}
+.produtos li:hover {
+    border-color: #C78C19; /*Muda a cor da borda do produto quando o mause está em cima*/
+}
+.produtos li:active {
+    border-color: #088c19; /*muda a cor da borda quando clica no produto*/
+}
+.produtos li:hover h2 {  /*muda o tamanho da fonte do produto quando o mause está em cima*/
+    font-size: 30px;
+}
+.imagens {
+    width: 150px;
+    right: 150px;
+    text-decoration: none;
+}
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ /*border-color: #000000; /* Corda borda*/
+    /*border-width: 2px; /*Largura da borda*/
+    /*border-style: solid; /*Tipo de borda*/
+

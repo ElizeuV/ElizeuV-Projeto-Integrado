@@ -1,0 +1,32 @@
+.titulo-todos, .titulo-todos-especial {
+    text-align:  center;
+    font-size: 30px;
+}
+
+.titulo-todos div {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /*around, between and evenly*/
+    height: 55px;
+    align-items: center; 
+    font-weight: bold;
+    border-top: #000000 solid 2px;
+    border-bottom:  #000000 solid 2px;
+}
+.titulo-todos-especial div {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /*around, between and evenly*/
+    height: 55px;
+    align-items: center; 
+    font-weight: bold;
+    padding: 10px;
+    border-top: #000000 solid 2px;
+}
+
+/*margin: 0px  0px 0px 0px;     /*cima*/   /*lado direiro*/  /*baixo*/ /*lado esquerdo*/ 
+
+
+

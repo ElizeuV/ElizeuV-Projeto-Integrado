@@ -1,0 +1,46 @@
+/*.produtos-home, .produtos-feminino, .produtos-masculino, .produtos-infantil, .produtos-calcados,.produtos-eletronicos,.produtos-promocoes {
+    background-color: white;}*/
+.produtos {
+    width: 940px; /*Largura padrão WEB*/
+    margin: 0 auto;
+}
+.produtos ul {
+    padding: 40px 0;
+}
+.produtos li {
+    display: inline-block; /*bloco em linha*/
+    margin: 0 20px 0 0 ;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  /*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
+    margin-top: 15px;
+    border: 2px solid #000000; /*Maneira simplificada*/
+    border-radius: 40px;    /*Curva nas bordas*/
+}
+.produtos li:hover {
+    border-color: rgb(23, 132, 182); /*Muda a cor da borda do produto quando o mause está em cima*/
+}
+.produtos li:active {
+    border-color: white; /*muda a cor da borda quando clica no produto*/
+}
+.produtos li:hover h2 {  /*musa o tamanho da fonte do produto quando o mause está em cima*/
+    font-size: 30px;
+}
+.imagens {
+     width: 150px;   /*Largura*/
+    height: 150px;    /*altura*/ 
+    padding: 10px;
+}
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+    /*border-color: #000000; /* Corda borda*/
+    /*border-width: 2px; /*Largura da borda*/
+    /*border-style: solid; /*Tipo de borda*/
